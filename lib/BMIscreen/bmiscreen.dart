@@ -67,7 +67,7 @@ class _bmiscreenState extends State<bmiscreen> {
   }
 
  int weight = 10;
- String message = "You are underweight";
+ String message = "Please Input Your Detail";
  double bmi = 0;
  int selectgender = 0 ;
  int height = 20;
@@ -76,7 +76,7 @@ class _bmiscreenState extends State<bmiscreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("BMI Calculator"),
+        title: Text("FitCHECK"),
         centerTitle: true,
         backgroundColor: Colors.black,
         titleTextStyle: TextStyle(

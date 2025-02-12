@@ -1,5 +1,6 @@
+import 'package:FitCheck/BMIscreen/bmiscreen.dart';
 import 'package:flutter/material.dart';
-import 'package:bmi_calculator/BMIscreen/bmiscreen.dart';
+
 void main() {
   runApp(const MyApp());
 }
