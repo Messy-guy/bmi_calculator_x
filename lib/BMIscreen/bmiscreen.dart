@@ -23,7 +23,7 @@ class _bmiscreenState extends State<bmiscreen> {
    getBMIMessage(double bmi){
     if(selectgender== 0){
     // boys under 18
-      if(age<2){
+      if(weight<14 && age<2){
         return bmi < 14 ? "Underweight" : "Normal weight";
       }else if (age>=2 && age<5){
         return bmi < 15 ? "Underweight" : "Normal weight";
@@ -289,7 +289,7 @@ class _bmiscreenState extends State<bmiscreen> {
              onPressed:(){
              calculateBMI();
            },
-           child: Text("Calculted",
+           child: Text("Calculate",
            style: TextStyle(
              color: Colors.black,
              fontSize: 17,
